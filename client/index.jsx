@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Chat from './components/Chat.js';
+import Chat from './components/Chat.jsx';
 
 class App extends React.Component {
   constructor(props) {
