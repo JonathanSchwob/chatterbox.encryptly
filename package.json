@@ -1,0 +1,32 @@
+{
+  "name": "chatterbox.encryptly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x7cf/chatterbox.encryptly.git"
+  },
+  "author": "Zak Golding <zak@0x7cf.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0x7cf/chatterbox.encryptly/issues"
+  },
+  "homepage": "https://github.com/0x7cf/chatterbox.encryptly#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1"
+  }
+}
