@@ -6,7 +6,8 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '../public')));
+app.use('/bundles', express.static(path.join(__dirname, '../bundles')));
 
 app.get('/api/test', function(req, res, next) {
   res.send('Hello world fuck off!');
